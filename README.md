@@ -31,6 +31,7 @@
   a) logowanie - przekierowanie na strone appki 
   b) dla klientów podgląd aktualnego projektu 
   c) dla nas zbudowana jira + chat
+
   
   
   
