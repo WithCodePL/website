@@ -11,12 +11,6 @@
 
 .portfolio h2 {
     color: black;
-    font-family: BrandonGrotesque;
-    text-align: center;
-}
-
-img:hover {
-    transition: 1s;
 }
 
 .zoom {
@@ -36,8 +30,9 @@ img:hover {
     background-color: #1e262c;
 }
 
-.zoom:hover .overlay {
-    opacity: 1;
+.background-portfolio:hover .overlay {
+    opacity: 0.9;
+    transition: 1s;
 }
 
 .text {
@@ -53,4 +48,22 @@ img:hover {
 .background-portfolio {
     background-color: #1e262c;
     padding: 0;
+}
+
+@media (max-width: 990px) {
+    .marTop {
+        margin-top: 20px;
+    }
+}
+
+button {
+    border: 3px solid white;
+    background: #1e262c;
+    padding: 8px 40px;
+    transition: 0.6s;
+}
+
+button:hover {
+    background: #2e262c;
+    border: 3px solid gray;
 }
