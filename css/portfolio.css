@@ -1,0 +1,15 @@
+@font-face {
+    font-family: BrandonGrotesque;
+    src: url("../font/Brandon_reg.otf")
+}
+
+.portfolio {
+    color: white;
+    font-family: BrandonGrotesque;
+}
+
+.portfolio h2 {
+    color: black;
+    font-family: BrandonGrotesque;
+    text-align: center;
+}
