@@ -1,21 +1,29 @@
-.vertical{
-    width:1px;
+.vertical {
+    width: 1px;
     height: 100%;
 }
+
 .left {
     text-align: center;
 }
-.right{
-    float: left;
-    text-align: center;
-    padding: 10px;
-    max-width: 180px;
 
+.right {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    max-width: 90px;
 }
+
 .middle {
-    text-align:center;
+    text-align: center;
 }
-.multi_image{
+
+.multi_image {
     background: url('../images/gplaypattern.png');
 
+}
+
+.min {
+
+    min-width: 90px;
 }
