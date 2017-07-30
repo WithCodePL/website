@@ -1,4 +1,13 @@
-.slesh{
-    font-size: 75px;
-
+.vertical{
+    width:1px;
+    height: 100%;
+}
+.left {
+    text-align: center;
+}
+.right{
+    float: left;
+}
+.middle {
+    text-align:center;
 }
