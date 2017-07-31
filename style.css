@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 @media (min-aspect-ratio: 16/9) {
     .video-foreground { height: 300%; top: -100%; }
 }
