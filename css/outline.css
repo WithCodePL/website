@@ -1,12 +1,12 @@
-.vertical {
-    width: 0px;
-    background-color: red;
-    height: 100%;
-    float: left;
-    border: 1px inset;
-    padding: 10px 2px;
-    margin-top: 10px;
-}
+/*.vertical {*/
+    /*width: 0px;*/
+    /*background-color: red;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    /*border: 1px inset;*/
+    /*padding: 10px 2px;*/
+    /*margin-top: 10px;*/
+/*}*/
 
 .left {
     margin-top: 10px;
@@ -38,4 +38,17 @@
     .vertical {
         display:none;
     }
+}
+
+.vertical {
+    position: absolute;
+    content: "";
+    height: 50px;
+    background-color: red;
+    width: 100%;
+    top: 10%;
+    transform: skewY(86deg);
+   overflow-y: hidden;
+
+
 }
