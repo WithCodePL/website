@@ -37,6 +37,9 @@
 
 .navbar {
     margin-bottom: 0;
+    border-radius: 0;
+    background-color: #1e262c;
+    border: none;
 }
 
 @media (min-aspect-ratio: 16/9) {
