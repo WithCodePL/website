@@ -22,6 +22,19 @@
     color: #fff;
 }
 
+
+#start {
+    height: 804px;
+}
+.header-image {
+    background: url('./images/header.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 @media (min-aspect-ratio: 16/9) {
     .video-foreground { height: 300%; top: -100%; }
 }
