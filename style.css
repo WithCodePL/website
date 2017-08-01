@@ -46,6 +46,12 @@
     top: -804px;
 }
 
+.header-text {
+    position: relative;
+    top: -1432px;
+    left: 92px
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
