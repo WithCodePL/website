@@ -49,7 +49,8 @@
 .header-text {
     position: relative;
     top: -1432px;
-    margin-left: 92px
+    margin-left: 5%;
+    color: white;
 }
 
 .navbar {
@@ -64,4 +65,18 @@
 }
 @media (max-aspect-ratio: 16/9) {
     .video-foreground { width: 300%; left: -100%; }
+}
+
+@media (max-width: 768px) {
+    .header-overlay {
+        display: none
+    }
+
+    .header-text {
+        top: -670px;
+    }
+
+    #start {
+        text-align: center;
+    }
 }
