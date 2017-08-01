@@ -35,6 +35,17 @@
     width: 100%;
 }
 
+.header-overlay {
+    position: relative;
+    background: url('./images/header-overlay.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    top: -804px;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
