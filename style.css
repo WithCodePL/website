@@ -60,6 +60,27 @@
     border: none;
 }
 
+#terminal {
+    position: relative;
+    width: 32%;
+    height: 40%;
+    resize: none;
+    top: -1332px;
+    margin-left: 60%;
+    background: black;
+    color: white;
+}
+
+#terminal-input {
+    position: relative;
+    width: 24%;
+    top: -1657px;
+    margin-left: 67.9%;
+    background: black;
+    color: white;
+    border: none
+}
+
 @media (min-aspect-ratio: 16/9) {
     .video-foreground { height: 300%; top: -100%; }
 }
