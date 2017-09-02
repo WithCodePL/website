@@ -1,14 +1,17 @@
-.line {
-    padding-left:50px;
+/*.line {*/
+    /*padding-left: 50px;*/
 
-}
+/*}*/
+
 .angle {
 
-    font-size:100px;
-    color:#ff0000;
+    font-size: 110px;
+    color: #ff0000;
+    text-align: end;
 }
+
 .vertical {
-    width: 0px;
+    width: 0;
     background-color: red;
     height: 140px;
     border: 20px;
@@ -16,9 +19,7 @@
     transform: rotate(21deg);
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
-
-
-
+    margin-top:5px;
 
 }
 
@@ -26,7 +27,6 @@
     margin-top: 25px;
 
 }
-
 
 .right {
     margin-left: auto;
@@ -49,29 +49,35 @@
     .vertical {
         display: none;
     }
-    .angle{
+
+    .angle {
         display: none;
     }
-    .left{
+
+    .left ul {
         text-align: center;
+        padding-left: 0;
+
     }
 
 }
 
-/*.vertical {*/
-    /*position: absolute;*/
-    /*height: 50px;*/
-    /*background-color: red;*/
-    /*width: 100%;*/
-    /*transform: skewY(86deg);*/
-    /*overflow-y: hidden;*/
-/*}*/
-
-.icon-hover:hover{
+.icon-hover:hover {
     max-width: 130px;
-    /*position: absolute;*/
     transition-duration: 0.6s;
     margin-top: -10px;
     margin-bottom: -10px;
+
+}
+
+.i {
+    border: solid red;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 40px;
+    border-top-right-radius: 0.06em;
+    border-bottom-left-radius: 0.06em;
+    transform: rotate(135deg);
+
 
 }
