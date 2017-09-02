@@ -1,10 +1,16 @@
+.col-md-1 {
+    width: 6.33333333%; }
 .vertical {
     width: 0px;
     background-color: red;
     height: 140px;
-    border: 1px;
-    padding: 10px 2px;
+    border: 20px;
+    padding: 10px 3px;
     transform: rotate(21deg);
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+
 
 }
 
@@ -17,7 +23,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 30px 10px;
-    max-width: 90px;
+    max-width: 110px;
 }
 
 .multi_image {
@@ -43,5 +49,10 @@
     /*width: 100%;*/
     /*transform: skewY(86deg);*/
     /*overflow-y: hidden;*/
+/*}*/
 
+.icon-hover:hover{
+    max-width: 150px;
+    position: absolute;
+    transition-duration: 1s;
 }
