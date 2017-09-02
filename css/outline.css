@@ -1,5 +1,8 @@
 .col-md-1 {
-    width: 6.33333333%; }
+    width: 6.33333333%;
+    font-size:100px;
+    color:#ff0000;
+}
 .vertical {
     width: 0px;
     background-color: red;
