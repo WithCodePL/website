@@ -1,5 +1,9 @@
-.col-md-1 {
-    width: 6.33333333%;
+.line {
+    padding-left:50px;
+
+}
+.angle {
+
     font-size:100px;
     color:#ff0000;
 }
@@ -15,12 +19,14 @@
 
 
 
+
 }
 
 .left {
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 25px;
+
 }
+
 
 .right {
     margin-left: auto;
@@ -43,6 +49,13 @@
     .vertical {
         display: none;
     }
+    .angle{
+        display: none;
+    }
+    .left{
+        text-align: center;
+    }
+
 }
 
 /*.vertical {*/
@@ -55,7 +68,10 @@
 /*}*/
 
 .icon-hover:hover{
-    max-width: 150px;
-    position: absolute;
-    transition-duration: 1s;
+    max-width: 130px;
+    /*position: absolute;*/
+    transition-duration: 0.6s;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
 }
